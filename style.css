@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+  }
+
+  .card {
+    width: 32rem;
+    margin: 10rem auto;
+    padding: 2.4rem 0;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 2rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 12px;
+  }
+
+  .card-img {
+    width: 27rem;
+    height: 27rem;
+    background-image: url('./images/image-qr-code.png');
+    border-radius: 12px;
+    background-size: contain;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+  }
+
+  .card-content{
+    width: 27rem;
+    background-size: contain;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .card-content h3 {
+    font-size: 2.1rem;
+    color: hsl(218, 44%, 22%);
+  }
+
+  .card-content p {
+    font-size: 1.5rem;
+    color: hsl(220, 15%, 55%);
+  }
+
+  .card-content h3,p {
+    margin: 10px;
+  }
+
+  /* .card-img .icon {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    transition: all 0.5s;
+    z-index: 99;
+  }
+  
+  .card-content {
+    margin: 0 auto;
+    width: 27rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+
+  .card-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+  
+    transition: all 0.3s;
+  }
+
+  p, a {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: hsl(215, 51%, 70%);
+}
+
+.card-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2.4rem;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+  }
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
